@@ -20,39 +20,41 @@ Two-player game with simple collision and scoring mechanics.
 
 1. Clone the repo:
 
-git clone https://github.com/dishavkumar/pong-pygame.git
+```bat
+git clone https://github.com/yourusername/pong-pygame.git
 cd pong-pygame
+```
 
 2. Create virtual environment and activate:
 
+```bat
 py -m venv .venv
 .venv\Scripts\activate
+```
 
 3. Install dependencies:
 
+```bat
 pip install -r requirements.txt
+```
 
+---
 
-How to Play
+## How to Play
 
-Left Paddle: W / S
+- **Left Paddle:** `W` / `S`  
+- **Right Paddle:** `↑` / `↓`  
+- **Start Game:** `SPACE`  
+- **Quit:** Close window  
 
-Right Paddle: ↑ / ↓
+- Left scores if the ball hits the right edge, right scores if it hits the left edge.  
+- The ball resets after a point.
 
-Start Game: SPACE
+---
 
-Quit: Close window
+## Files
 
-Left scores if the ball hits the right edge, right scores if it hits the left edge.
-
-The ball resets after a point.
-
-Files
-
-pong.py → Main game code
-
-requirements.txt → Dependencies
-
-.gitignore → Files to ignore
-
-README.md → Project info
+- `pong.py` → Main game code  
+- `requirements.txt` → Dependencies  
+- `.gitignore` → Files to ignore  
+- `README.md` → Project info
